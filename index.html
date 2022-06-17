@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>Personal site</title>
+	<style>
+		html{
+			background-color: black;
+			justify-content: flex-start;
+		}	
+		*{
+			color: #66FF00;
+		}
+		h1{
+			color: #4CBB17;
+			position: relative;
+			left: 15em;
+		}
+		h2{
+			color: #489315;
+		}
+		.telegram {
+			width: 100px;
+			height: 100px;
+			left: 50px;
+		}
+		div.photo{
+			position: relative;
+			left: 230px;
+		}
+		.photo{
+			position: relative;
+			left: 230px;
+			width: 230px;
+			height: 230px;
+		}
+		.random-dog{
+			position: relative;
+			left: 230px;
+			width: 230px;
+			height: 230px;
+		}
+		button{
+			position: relative;
+			left: 50em;
+			color : black;
+			border-color : #489315;
+			border-style : ridge;
+			border-width : 3px;
+		}
+		nav{
+			position: relative;
+			left: 15em;
+		}
+		div.div1{
+			position: relative;
+			left: 230px;
+			width: 50em;
+		}
+		div.div2{
+			position: relative;
+			left: 230px;
+			width: 50em;
+		}
+		div.div3{
+			position: relative;
+			left: 230px;
+			width: 50em;
+		}
+
+	</style>
+
+
+	
+</head>
+<body>
+	<h1> Hello, my name is Ksenia</h1>
+	
+	<nav> 
+	<p> <a href = "#about-me"> About me </a></p>
+	<p> <a href = "#project"> Projects </a> </p>
+	</nav>
+	
+	<figure class = "photo" id = "my-photo">
+		<img class="photo" src = "https://i.pinimg.com/originals/bd/f0/25/bdf025165c835a6c22eced2a83fd49c3.jpg">
+		<figcaption> I haven't any good photo, so, look at this cute dog </figcaption>
+	</figure>
+	
+	<button id = "dogButton" type = "button"> I think, this dog looks lonely </button>
+	
+	<figure class = "photo" id = "new-photo" style = 'display:none'>
+		<img id = "random-dog" src = ""  style="width:230px">
+		<figcaption> Ok, let's find a friend! </figcaption>
+	</figure>
+	
+	<div class = "div1">
+		<h2 id = "about-me"> About me </h2>
+		<p> I just start learning front-end and I already like it! I know C++ and base of Java and Python, but HTML looks very different. My CSS skills just go brrrrrr (yet, I hope). All this is new to me, but I will improve my skills and make this site better. </p>
+	</div>
+	
+	<div class = "div2">
+		<h2 id = "project"> Projects </h2>
+		<p> Unfortunately, I have no one completed project right now. But I'm working on a project of InnoCart as a part of great team. <a href = "https://github.com/InnoSWP/InnoCart"> Here</a>  you can see us. </p>
+	</div>
+	
+	<div class = "div3">
+		<h2 id = "contact"> Contact me </h2>
+		<a href = "https://t.me/KseniaSchekina" > <img class="telegram" src = "https://leonsvet.ru/images/telega.png"> </a>
+	</div>
+
+	<script src = "main.js"> </script>
+	
+</body>
+</html>
